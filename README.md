@@ -244,14 +244,14 @@ The project explored three distinct agent orchestration strategies, each with di
 
 #### How often did the agent need tool calls?
 
-- **Pipeline**: Exactly 2 LLM calls per query (planner + research agent). The search tool is always called once, deterministically.
-- **GroupChat/ReAct**: Highly variable and unpredictable. Some queries completed with 1-2 tool calls; others triggered 10+ calls before hitting rate limits or timing out.
+- **Pipeline**: Exactly 2 LLM calls per query (planner + research agent). The search tool is always called once, deterministically. Could have made the planner agent be responsible for calling the tool, but that adds more failure modes to that agent, increasing risk of instability. 
+- **GroupChat/ReAct**: Highly variable and unpredictable. Some queries completed with 1-2 tool calls; others started looping causing rate limits and needing to be manually stopped. And some made 0 calls, halucinating the results of the tool.
 
 #### Did the LLM ever hallucinate?
 
 Yes, frequently:
 - **GroupChat/ReAct**: The agents hallucinated paper titles, authors, and citation counts when they skipped tool calls. They also fabricated explanations without consulting actual search results.
-- **Pipeline (ranking stage)**: The research agent sometimes selected papers that loosely matched the query and provided post-hoc justifications that didn't align with the actual constraints. For example, a paper with low citations was selected for a query with a high citation threshold, then justified as acceptable because it was "foundational."
+- **Pipeline (ranking stage)**: The research agent sometimes selected papers that loosely matched the query, when no better was available. In this situation the agent should maybe just return no papers.
 
 #### How did you prevent incorrect answers?
 

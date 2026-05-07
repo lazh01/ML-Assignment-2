@@ -7,12 +7,26 @@ planner = AssistantAgent(
     system_message="""
 Extract structured constraints from the user query.
 
-Return JSON with:
+Return only a single JSON object with zero or more of these keys:
 - topic
+- publication_year
+- before_year
+- after_year
+- in_year
 - min_year
 - max_year
 - min_citations
+- max_citations
+- approximate_citations
+- citation_count
+- author
+- venue
+- keywords
 
-and make it so each is its own top-level item, so it can easily be used by other tools.
+If the query asks for a specific year, use one of publication_year, in_year, before_year, or after_year.
+If the query asks for citations loosely, use approximate_citations.
+If it asks for a minimum or maximum citation count, use min_citations or max_citations.
+
+Do not return any extra text, commentary, or explanation. Return valid JSON only.
 """
 )

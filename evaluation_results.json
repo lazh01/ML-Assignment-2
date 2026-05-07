@@ -1,0 +1,63 @@
+[
+  {
+    "prompt": "Find a highly cited paper about transformer models published after 2018.",
+    "response": "Based on the given constraints, the best matching paper is:\n\n**Title:** Transformer-XL: Attentive Language Models beyond a Fixed-Length Context\n**Authors:** Zihang Dai, Zhilin Yang, Yiming Yang, Jaime Carbonell, Quoc V. Le, Ruslan Salakhutdinov\n**Year:** 2019\n**Citation Count:** 3131\n**Citation Source:** arXiv\n**Link:** <https://doi.org/10.18653/v1/p19-1285>\n\n**Explanation:** This paper is the best match for the given constraints because:\n\n1. **Topic:** The paper is directly about transformer models, focusing on improving their ability to learn dependencies beyond a fixed-length context.\n2. **Year:** It was published in 2019, which falls within the given constraint of 'min_year' being 2018.\n3. **Citation Count:** With 3131 citations, it has the highest citation count among the given candidates, indicating its significant impact and relevance to the topic.\n\nWhile all the given papers are about transformer models, this one stands out due to its high citation count and direct relevance to the topic, as it introduces a novel architecture (Transformer-XL) that addresses a key limitation of standard transformers. The other papers, while interesting, either have lower citation counts or focus more on specific applications or improvements of transformer models (e.g., DNABERT for DNA sequences, or reviews of BERT-based approaches for emotion detection).",
+    "success": true
+  },
+  {
+    "prompt": "Find a paper about retrieval-augmented generation for question answering published before 2021 with at least 500 citations.",
+    "response": "No papers found matching constraints.",
+    "success": true
+  },
+  {
+    "prompt": "Find a paper about reinforcement learning published in exactly 2017 with at least 1000 citations.",
+    "response": "**Title:** Diagnosing Non-Intermittent Anomalies in Reinforcement Learning Policy Executions (Short Paper)\n**Authors:** Avraham Natan, Roni Stern, Meir Kalech\n**Year:** 2017\n**Citation Count:** 11,279\n**Citation Source:** arXiv\n**Link:** <https://doi.org/10.4230/oasics.dx.2024.16>\n\n**Explanation:**\n\nThis paper is a strong match for the given constraints:\n\n- **Topic:** The paper is explicitly about reinforcement learning (RL), focusing on the sim-to-real transfer of an RL controller for an octocopter.\n- **Year:** It was published in 2017, which falls within the specified range.\n- **Citation Count:** With over 11,279 citations, it significantly exceeds the minimum citation count of 1,000.\n\nHowever, there are a couple of uncertainties and considerations:\n\n- **Specificity to RL:** While the paper does discuss reinforcement learning, it primarily focuses on the sim-to-real transfer of a pre-trained RL controller. The analysis and methods used are more related to understanding and diagnosing differences between simulated and real-world environments, rather than developing or improving RL algorithms.\n- **Citation Source:** The citation count is from arXiv, which is a preprint server, and not a traditional academic journal. This might lead to a higher citation count due to its accessibility, but it could also mean that the paper has not undergone the same level of peer review as a typical journal article.\n\nIn conclusion, while this paper is a good match for the given constraints, it's important to note that it might not be the best fit if you're looking for a paper that focuses more on the core aspects of reinforcement learning algorithms and their development.",
+    "success": true
+  },
+  {
+    "prompt": "Find a recent paper about AI agents using tools published after 2023.",
+    "response": "No papers found matching constraints.",
+    "success": true
+  },
+  {
+    "prompt": "Find a paper about graph neural networks published before 2019 with at least 300 citations.",
+    "response": "**Title:** Graph Neural Networks: A Review of Methods and Applications\n**Authors:** Jie Zhou, Ganqu Cui, Shengding Hu, Zhengyan Zhang, Cheng Yang, Zhiyuan Liu, Lifeng Wang, Changcheng Li, Maosong Sun\n**Year:** 2018\n**Citation Count:** 1451\n**Citation Source:** arXiv\n**Link:** <https://doi.org/10.48550/arxiv.1812.08434>\n\n**Explanation:**\nThis paper is the best match for the given constraints as it directly addresses the topic of graph neural networks (GNNs) and was published within the specified year range (2018). It has a sufficient citation count (1451) that meets the minimum requirement of 300 citations. The paper provides a comprehensive review of GNN methods and their applications, making it a valuable resource for understanding the field of graph neural networks.\n\nUncertainties:\n- While the paper is a review, it might not provide the most recent developments in the field, as it was published in 2018. For a more up-to-date overview, one might consider papers published more recently.\n- The citation count, while sufficient for the given constraints, is lower than that of the other candidate paper (\"The Graph Neural Network Model\" with 9105 citations). This suggests that the first candidate might be more influential in the field, but it does not directly match the topic of graph neural networks as well as the second candidate.",
+    "success": true
+  },
+  {
+    "prompt": "Find a paper about diffusion models with more than 2000 citations.",
+    "response": "Based on the given constraints, the best matching paper is:\n\n**Title:** High-Resolution Image Synthesis with Latent Diffusion Models\n**Authors:** Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer\n**Year:** 2022\n**Citation Count:** 13230\n**Citation Source:** CVPR 2022\n**Link:** <https://doi.org/10.1109/cvpr52688.2022.01042>\n\n**Explanation:**\n\nThis paper is the best fit for the given constraints because:\n\n1. **Topic:** The paper is directly about diffusion models, specifically focusing on latent diffusion models, which is the main topic of interest.\n2. **Citation Count:** With 13230 citations, it far exceeds the minimum citation count constraint of 2000.\n\nWhile other papers also discuss diffusion models, they are not as closely related to the topic or do not meet the citation count constraint:\n\n- \"Brownian motion in a field of force and the diffusion model of chemical reactions\" is too old (1940) and not directly related to modern applications of diffusion models in machine learning.\n- \"The solution-diffusion model: a review\" (1995) is also quite old and does not have a high enough citation count (3375).\n- \"Adding Conditional Control to Text-to-Image Diffusion Models\" (2023) and \"Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding\" (2022) are more focused on specific applications of diffusion models (text-to-image synthesis) rather than the general topic of diffusion models.\n- \"Pore and solid diffusion models for fixed‐bed adsorbers\" (1974) is about a specific application of diffusion models in chemical engineering and does not meet the citation count constraint (2536).\n- \"Diffusion Models Beat GANs on Image Synthesis\" (2021) is more focused on comparing diffusion models with GANs rather than discussing diffusion models in general.",
+    "success": true
+  },
+  {
+    "prompt": "Find a good paper about AI safety.",
+    "response": "**Title:** AI Safety Gridworlds\n**Authors:** Jan Leike, Miljan Martic, Victoria Krakovna, Pedro A. Ortega, Tom Everitt, Andrew Lefrancq, Laurent Orseau, Shane Legg\n**Year:** 2017\n**Citation Count:** 117\n**Citation Source:** arXiv\n**Link:** <https://doi.org/10.48550/arxiv.1711.09883>\n\n**Explanation:**\nThis paper is the best match for the given constraints. Here's why:\n\n1. **Topic:** The paper directly addresses AI safety, which is the specified topic.\n2. **Year:** It was published in 2017, which falls within the given range (2010-2022).\n3. **Citations:** It has 117 citations, meeting the minimum citation requirement of 100.\n\n**Uncertainties:**\n- The second candidate, \"Governing AI safety through independent audits\", is also relevant and has a higher citation count (214), but it was published in 2021, which is closer to the current year and might be more recent than what the user is looking for.\n- The first paper provides a more technical approach to AI safety, focusing on reinforcement learning environments, while the second one discusses governance and audits, which might be more relevant depending on the user's specific interest within the AI safety topic.",
+    "success": true
+  },
+  {
+    "prompt": "Find a paper about using broccoli to optimize compiler design published after 2024 with at least 100 citations.",
+    "response": "No papers found matching constraints.",
+    "success": true
+  },
+  {
+    "prompt": "Find a paper about autonomous software engineering agents published after 2022 with more than 100 citations.",
+    "response": "No papers found matching constraints.",
+    "success": true
+  },
+  {
+    "prompt": "Find a paper about retrieval systems for LLMs with at least 400 citations and explain why it would matter for enterprise search systems.",
+    "response": null,
+    "success": false,
+    "error": "Extra data: line 8 column 1 (char 126)"
+  },
+  {
+    "prompt": "Find an influential paper about multimodal AI.",
+    "response": "**Title:** Multimodal biomedical AI\n**Authors:** Julián Acosta, Guido J. Falcone, Pranav Rajpurkar, Eric J. Topol\n**Year:** 2022\n**Citation Count:** 1053\n**Citation Source:** Semantic Scholar\n**Link:** <https://doi.org/10.1038/s41591-022-01981-2>\n\n**Explanation:**\n\nThis paper is the best fit for the given constraints as it:\n\n1. **Matches the topic:** The title and abstract clearly indicate that the paper is about \"multimodal AI,\" which is the specified topic.\n\n2. **Falls within the specified year range:** The paper was published in 2022, which is within the given constraints of 2010 to 2022.\n\n3. **Meets the minimum citation count:** With 1053 citations, it exceeds the minimum required citation count of 100.\n\n**Uncertainties:**\n\nWhile this paper is a strong match, there are a couple of uncertainties:\n\n1. **Specificity to multimodal AI:** Although the paper discusses multimodal AI, it focuses on its applications in the biomedical field. If the topic of interest is multimodal AI in a broader context or in a specific domain other than biomedicine, this paper might not be the best fit.\n\n2. **Citation source:** The citation count is from Semantic Scholar, which might not cover all citation sources. The actual citation count could be higher or lower depending on the source used.",
+    "success": true
+  },
+  {
+    "prompt": "Find a paper about quantum machine learning published in 2025 with more than 5000 citations.",
+    "response": "No papers found matching constraints.",
+    "success": true
+  }
+]

@@ -169,7 +169,7 @@ The system returns:
 
 The system was evaluated against 12 diverse test prompts covering broad topics, narrow topics, exact constraints, ambiguous queries, and impossible scenarios.
 
-### Test Coverage
+### Test Coverage(See evaluation_results.json for verbose results)
 
 | Prompt | Topic | Constraints | Result | Match Quality |
 |--------|-------|-------------|--------|---|
@@ -185,8 +185,6 @@ The system was evaluated against 12 diverse test prompts covering broad topics, 
 | 10 | Retrieval systems for LLMs | ≥200 cit. | Vector Space Models (2010, 2866 cit.) | ~ Loosely related |
 | 11 | Multimodal AI (influential) | (no constraints) | Multimodal Biomedical AI (2022, 1053 cit.) | ✓ Good |
 | 12 | Quantum machine learning | after 2020, >200 cit. | Power of Data in QML (2021, 621 cit.) | ✓ Good |
-
-**Success rate: 11/12 prompts returned results (100%)**
 
 ### What works well
 
@@ -209,7 +207,7 @@ The system was evaluated against 12 diverse test prompts covering broad topics, 
 
 ### OpenAlex behavior note
 
-The exact selection strategy used by OpenAlex is not fully documented here. It appears to return a limited candidate set based on internal relevance or ranking heuristics, so the system must treat that set as the starting point rather than the definitive universe of papers.
+OpenAlex returns a candidate list ordered by its internal relevance scoring for the query. The research agent must choose from the papers OpenAlex considers most relevant to the request.
 
 ### LLM behavior note
 
